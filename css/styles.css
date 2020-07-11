@@ -1,6 +1,6 @@
 body {
-  background-color: skyblue;
-  background-image: url(../images/Merino_Sheep.png);
+  /*background-color: skyblue;*/
+  /*background-image: url(../images/Merino_Sheep.png);*/
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -26,18 +26,9 @@ h3 {
 }
 
 .middle-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  left: 200px; 
 }
 
 .bottom-container {
-  background-color: yellow;
-  height: 200px;
-  width: 200px;
-  position: absolute;
 }
 
 .top-cloud {
@@ -47,5 +38,21 @@ h3 {
 
 .bottom-cloud {
   position: absolute;
+}
+
+.portrait {
+  border-radius: 100%;
+}
+
+.cloud-computing {
+  width: 10%;
+}
+
+.cloud-storage {
+  width: 10%;
+}
+
+.algorithm {
+  width: 10%;
 }
 
