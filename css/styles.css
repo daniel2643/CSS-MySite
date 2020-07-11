@@ -12,28 +12,18 @@ h1 {
 .top-container {
   background-color: #E4F9F5;
   margin: 0px;
-  border: solid 10px;
-  padding: 20px;
-  height: 200px;
-  width: 200px;
+
 }
 
 .middle-container {
   background-color: red;
-  margin-left: 260px;
-  border: solid 20px;
   height: 200px;
   width: 200px;
 }
 
 .bottom-container {
   background-color: yellow;
-  margin-left: 500px;
-  border: solid 10px;
   height: 200px;
   width: 200px;
 } 
 
-.bottom-container:hover {
-  background-color: silver;
-}
