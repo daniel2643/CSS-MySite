@@ -1,6 +1,6 @@
 body {
   background-color: skyblue;
-
+  background-image: url(../images/Merino_Sheep.png);
   margin: 0px;
 }
 
@@ -33,3 +33,7 @@ h1 {
   height: 200px;
   width: 200px;
 } 
+
+.bottom-container:hover {
+  background-color: silver;
+}
