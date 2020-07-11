@@ -1,28 +1,24 @@
 body {
   background-color: skyblue;
   background-image: url(../images/Merino_Sheep.png);
-  margin: 0px;
+  margin: 0;
+  text-align: center;
 }
 
-/*h1 {*/
-  /*margin-top: 0px;*/
-  /*margin-bottom: 0px;*/
-/*}*/
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .top-container {
   background-color: #E4F9F5;
-  height: 200px;
-  width: 200px;
-  display: inline-block;
-  position: absolute;
-  left: 400px;
+  padding-top: 50px;
 }
 
 .middle-container {
   background-color: red;
   height: 200px;
   width: 200px;
-  display: inline-block;
   position: absolute;
   left: 200px; 
 }
@@ -31,6 +27,15 @@ body {
   background-color: yellow;
   height: 200px;
   width: 200px;
-  display: inline-block;
   position: absolute;
 }
+
+.top-cloud {
+  position: relative;
+  left: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
