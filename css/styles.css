@@ -35,13 +35,10 @@ hr {
 }
 
 a {
+  margin: 0 6px;
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
   text-decoration: none;
-}
-
-a:hover {
-  color: #EAF6F6;
 }
 
 .top-container {
@@ -145,6 +142,10 @@ a:hover {
 
 .footer-link {
   margin: 10px 20px; 
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
 }
 
 .copyright {
